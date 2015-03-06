@@ -21,7 +21,7 @@ void prefetch_access(AccessStat stat) {
 		if (useful > 6) {
 			degree += 1;
 		}
-		else if(useful < 3) {
+		else if(useful < 4) {
 			if (degree > 1) {
 				degree -= 1;
 			}
